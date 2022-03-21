@@ -1,0 +1,997 @@
+*{
+    padding:0;
+    margin:0;
+    outline:none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root{
+    --newcolor:#FFCB0F;
+}
+  .inner{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec_1 {
+    display: none;
+}
+/* section22222222222222 */
+.sec_2{
+    background:linear-gradient(#3c444ab3,#161c219c) ,url(../images/banner.jpg) no-repeat center left;
+    background-size: auto 150%;
+}
+.sec_2 header{
+    background-color: #222533;
+}
+.sec_2 header .inner >div{
+    display:flex;
+    justify-content: space-between;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.sec_2 header .inner > div   h3{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.sec_2 header  .inner > div  h3{
+    color:#fff;
+    font-style: italic;
+}
+.sec_2 header  .inner > div h3 span{
+    color:var(--newcolor);
+}
+.sec_2 header  .inner  >div p{
+   display: none;
+}
+.sec_2 header  .inner  >div label{
+    font-size: 1.2rem;
+    color:#fff;
+}
+.sec_2 header  .inner nav{
+    margin-top:5px;
+}
+.sec_2 header  .inner nav input{
+    display:none;
+}
+.sec_2 header  .inner nav ul{
+    display:none;
+}
+.sec_2 header  .inner nav input:checked + ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec_2 header  .inner nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    border:1px solid transparent;
+    border-radius: 10px;
+    color:#DBDCDE;
+    display:block;
+    padding:5px;
+}
+.sec_2 header  .inner nav ul li a i{
+    color:var(--newcolor);
+}
+.sec_2 header  .inner nav ul li a:hover{
+    background-color: var(--newcolor);
+    border:1px solid var(--newcolor);
+    color:#222533;
+}
+
+.sec_2 header  .inner nav ul li:last-child a:hover{
+    background-color:#222533;
+}
+
+.sec_2 > div {
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.sec_2 > div h3{
+    color:#fff;
+    font-weight: 300;
+    font-size:1.5rem;
+    margin-bottom:10px;
+}
+.sec_2 > div h1{
+    color:#fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size:2rem;
+    line-height: 1;
+}
+.sec_2 > div h1:last-of-type{
+    color:var(--newcolor);
+}
+.sec_2 > div p{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size:0.8rem;
+    color:#fff;
+    text-align: center;
+}
+.sec_2 > div a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:var(--newcolor);
+    background-color: #000;
+    border:1px solid var(--newcolor);
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+
+}
+/* ****************setion 3 */
+
+.sec_3{
+    background-color:#fff;
+    padding-top:20px;
+}
+.sec_3 .inner > div h2{
+    font-size:1.8rem;
+    text-transform: uppercase;
+    color:var(--newcolor);
+    text-align: center;
+}
+.sec_3 .inner > div h5{
+font-size:1.4rem;
+margin-bottom: 30px;
+color:#484848;
+line-height: 1;
+text-align: center;
+
+}
+.sec_3 .inner > div p{
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-bottom:15px;
+    color:#484848;
+}
+
+.sec_3 .inner > div div{
+    text-align: left;
+}
+.sec_3 .inner > div div a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    background-color:var(--newcolor);
+    border:1px solid var(--newcolor);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.sec_3 .inner  img{
+    max-width: 100%;
+    height: auto;
+}
+/* section4**** */
+.sec_4{
+    background:linear-gradient(#3a3352c2,#3a33529e)
+    ,url("../images/bg4.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top:25px;
+    padding-bottom:2px;
+}
+.sec_4 .inner > h3{
+    text-transform: uppercase;
+    text-align: center;
+    color:var(--newcolor);
+    font-size:1.4rem;
+}
+.sec_4 .inner > p{
+    color:#fff;
+    margin-top:10px;
+    margin-bottom:100px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.sec_4 .inner >div{
+    text-align: center;
+}
+
+.sec_4 .inner >div article{
+    position: relative;
+    text-align: center;
+    margin-right: auto;
+    margin-left:auto;
+    margin-bottom:90px;
+    padding-bottom: 25px;
+    border:1px solid transparent;
+    border-radius: 10px;
+    background-color:#251d298f;
+    padding-top:80px;
+    width:250px;
+}
+.sec_4 .inner >div article span{
+    border:1px solid transparent;
+    font-size: 3.5rem;
+    border-radius: 50%;
+    background-color: var(--newcolor);
+    display: inline-block;
+    width:50%;
+    color:#000;
+    padding:30px;
+    position: absolute;
+    top:-70px;
+    left:25%;
+}
+
+.sec_4 .inner >div article div{
+    text-align: center;
+    padding-left:5px;
+    padding-right:5px;
+}
+.sec_4 .inner >div article div h4{
+    color:var(--newcolor);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.sec_4 .inner >div article div p{
+    color:#fff;
+    font-size: 0.9rem;
+}
+/* section5***************/
+.sec_5{
+    padding-top:20px;
+}
+.sec_5 .inner h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    color:#484848;
+    margin-bottom:20px;
+}
+.sec_5 .inner >div article >div{
+    position: relative;
+    margin-bottom:20px;
+}
+.sec_5 .inner >div article img{
+    width: 100%;
+    height:auto;
+}
+
+.sec_5 .inner >div article >div img + a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#fff;
+    background-color:#1212139e;
+    text-align:center;
+    padding-left:2px;
+    padding-right: 2px;
+    width:100%;
+    font-weight: bold;
+    display:block;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-size: 1.1rem;
+    position:absolute;
+    bottom:4px;
+}
+.sec_5 .inner >div article p{
+    color:#868686;
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-bottom:20px;
+}
+.sec_5 .inner >div article p + div{
+    text-align: center;
+}
+.sec_5 .inner >div article p + div  a:first-of-type{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    background-color: var(--newcolor);
+    color:white;
+    padding:15px 20px;
+    font-size: 0.8rem;
+    border:1px solid transparent;
+    border-radius: 10px;
+}
+/* section6********* */
+.sec_6 {
+    background: linear-gradient(#605e57e0,#605e57bf),url("../images/bg2.jpg") no-repeat top center;
+    background-size: cover;
+    padding-top:20px;
+    padding-bottom: 40px;
+}
+.sec_6 .inner h3{
+    text-transform: uppercase;
+    color:#fff;
+    font-size:1.4rem;
+    text-align: center;
+    margin-bottom:20px;
+}
+.sec_6 .inner p{
+    font-size: 0.75rem;
+    text-align: center;
+    color:#fff;
+    margin-bottom:25px;
+}
+.sec_6 .inner ul{
+    list-style-type:none;
+    text-align: center;
+    margin-bottom:20px;
+}
+.sec_6 .inner ul li{
+    display: inline-block;
+}
+.sec_6 .inner ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-size:0.6rem;
+    display:inline-block;
+    padding:5px 10px;
+    border:1px solid transparent;
+    border-radius: 10px;
+}
+.sec_6 .inner ul li a:hover{
+    background-color: #000;
+}
+.sec_6 .inner div aside:first-child{
+    margin-bottom:10px;
+    text-align: center;
+}
+.sec_6 .inner div aside:first-child img{
+    max-width: 100%;
+    height:auto;
+}
+.sec_6 .inner div aside:last-child{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec_6 .inner div aside:last-child img{
+    max-width: 45%;
+    height:auto;
+    margin-bottom:10px;
+}
+/* section7 */
+.sec_7{
+    background:url("../images/bg3.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top:20px;
+}
+.sec_7 .inner h3{
+    font-size:1.4rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.sec_7 .inner p{
+    font-size: 0.75rem;
+    text-align: center;
+    color:#A0A0A0;
+    margin-bottom:25px;
+}
+.sec_7 .inner >div article{
+    margin-bottom:10px;
+}
+.sec_7 .inner >div article blockquote{
+    background: #E5E5E5 url("../images/blockquote2.png") no-repeat;
+    background-position: 5px 16px;
+    padding: 20px 20px 20px 40px;
+    background-size: 30px;
+    font-size:0.7rem;
+    color:#A0A0A0;
+    text-align: justify;
+}
+.sec_7 .inner >div article:nth-of-type(2) blockquote{
+    background: #E5E5E5 url("../images/blockquote1.png") no-repeat;
+    background-position: 5px 16px;
+    padding: 20px 20px 20px 40px;
+    background-size: 30px;
+}
+.sec_7 .inner >div article > img{
+    margin-top:-1px;
+    display: block;
+    margin-left: 45%;
+    margin-bottom:15px;
+}
+.sec_7 .inner >div article > div{
+    text-align: center;
+    text-transform: uppercase;
+    color:#888;
+    font-weight: bold;
+}
+.sec_7 .inner >div article > div img{
+    border:1px solid transparent;
+    border-radius: 50%;
+}
+.sec_7  >div:last-child{
+background-color:#FEDB5D;
+padding-top:20px;
+padding-bottom: 10px;
+border-bottom: 20px solid #656B73;
+}
+.sec_7  >div:last-child div{
+    display: block;
+    margin-bottom:20px;
+}
+.sec_7  >div:last-child .inner div h2{
+    text-transform: uppercase;
+    text-align:center;
+    color:#73757E;
+    font-size:1.4rem;
+}
+.sec_7  >div:last-child .inner div h2:last-child{
+    font-weight: 600;
+}
+.sec_7  >div:last-child .inner form{
+    text-align: center;
+}
+.sec_7  >div:last-child .inner form * {
+    border:1px solid transparent;
+    width:90%;
+    height: 28px;
+    border-radius: 10px;
+    margin:10px;
+    font-size:0.85rem;
+    color:#8B8BBC;
+    text-transform: capitalize;
+    padding:5px 10px;
+}
+.sec_7  >div:last-child .inner form input:last-of-type{
+    width:50%;
+    background-color:#73757E;
+    color:#fff;
+    text-transform: uppercase;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+/************** footer **********/
+footer{
+    background: linear-gradient(#20242fcf,#20242fc7),url(../images/bg2.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+footer .inner >div h5{
+    font-weight: 300;
+    text-transform: capitalize;
+    color:#E8E8E9;
+    font-size:1.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer .inner >div{
+    border-bottom:1px solid var(--newcolor);
+    margin-bottom:5px;
+}
+footer .inner >div:first-child h2{
+    color:var(--newcolor);
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+footer .inner >div:first-child p:first-of-type{
+    line-height: 1;
+    color:#9B9B9D;
+    font-weight: 600;
+    font-size:0.75rem;
+    margin-bottom:15px;
+}
+footer .inner >div:first-child p:last-of-type{
+    color:#fff;
+    text-align: justify;
+    font-weight: 300;
+    font-size:0.0.85rem;
+    margin-bottom:30px;
+}
+footer .inner >div:first-child div{
+    text-align:center;
+}
+footer .inner >div:first-child div a{
+    text-decoration: none;
+    color:#000;
+    border:1px solid transparent;
+    border-radius: 50%;
+    background-color: var(--newcolor);
+    padding:7px 10px;
+    display: inline-block;
+    margin-right:3px;
+    margin-bottom:10px;
+}
+
+footer .inner >div ul{
+    list-style-type: none;
+}
+footer .inner >div:nth-child(2) ul li{
+    margin-bottom:10px;
+    font-size:1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+footer .inner >div:nth-child(2) ul li i{
+    color:#9B9B9D;
+}
+footer .inner >div:nth-child(2) ul li a{
+    text-decoration: none;
+    color:#9B9B9D;
+    margin-left:10px;
+}
+footer .inner >div:nth-child(3) ul li{
+    margin-bottom:10px;
+    display: flex;
+    align-items: center;
+}
+footer .inner >div:nth-child(3) ul li span{
+    border: 3px solid #9B9B9D;
+    width: 50px;
+    color: #9B9B9D;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 7px;
+    text-align: center;
+}
+footer .inner >div:nth-child(3) ul li p{ 
+    display: inline-block;
+    color: #9B9B9D;
+    width: 70%;
+    margin-left: 10px;
+    font-size: 0.85rem;
+}
+footer .inner >div:last-child ul li{
+    margin-bottom:15px;
+    font-size:1rem;
+    color: #9B9B9D;
+}
+footer .inner >div:last-child ul li i{
+    margin-right: 10px;
+}
+footer .inner >div:last-child{
+    border-bottom:none;
+}
+footer + div{
+    background-color: #1A1C27;
+    color:#fff;
+    font-weight: 600;
+    text-align:center;
+    font-size: 0.9rem;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+footer + div span{
+    color:var(--newcolor);
+}
+@media (min-width:768px){
+    .sec_1{
+        display:block;
+        background-color: var(--newcolor);
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .sec_1 .inner {
+        width:80%;
+        display: flex;
+        justify-content: space-between;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .sec_1 .inner ul{
+        list-style-type: none;
+    }
+    .sec_1 .inner ul li{
+        font-size:0.7rem;
+        display: inline-block;
+        margin-right: 15px;
+        font-weight: 600;
+    }
+    .sec_1 .inner ul li i{
+        margin-right:5px;
+    }
+    .sec_1 .inner div a  {
+        text-decoration: none;
+        margin-right:5px;
+        color:#000;
+    }
+    .sec_1 .inner div a i{
+        font-size:0.9rem;
+    }
+    /* section 2 */
+    .sec_2{
+        background-position: center right;
+        background-size: cover;
+    }
+    .sec_2 header .inner{
+        display:flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    .sec_2 header .inner >div{
+        display:block;
+        padding-top:0;
+        padding-bottom:0;
+    }
+    .sec_2 header .inner > div   h3{
+        font-size: 1.2rem;
+    }
+
+    .sec_2 header  .inner > div p{
+        display: none;
+    }
+
+    .sec_2 header  .inner  >div label{
+        display: none;
+    }
+
+    .sec_2 header  .inner nav{
+        margin-top:0px;
+    }
+
+    .sec_2 header  .inner nav ul,
+    .sec_2 header  .inner nav input:checked + ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .sec_2 header  .inner nav ul li a {
+        font-size:0.75rem;
+        padding:10px;
+    }
+    .sec_2 header  .inner nav ul li a:hover{
+        background-color: var(--newcolor);
+        border:1px solid var(--newcolor);
+        color:#222533;
+    }
+
+    .sec_2 > div {
+        padding-top:100px;
+        padding-bottom:140px;
+    }
+    
+    .sec_2 > div h3{
+        font-weight: 600;
+        font-size:1.6rem;
+    }
+    .sec_2 > div h1{
+        font-size:2.5rem;
+    }
+
+    .sec_2 > div p{
+        font-weight: 600;
+        font-size:0.9rem;
+        padding-left:100px;
+        padding-right:100px;
+        margin-bottom:20px;
+    }
+    .sec_2 > div a {
+        font-size: 1rem;
+    margin-top:10px;    
+}
+/* section 3 */
+.sec_3{
+    padding-top:0px;
+}
+.sec_3 .inner{
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.sec_3 .inner >div{
+    width:45%;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.sec_3 .inner >div h2{
+    font-size:1.2rem;
+    text-align: left;
+}
+.sec_3 .inner > div h5{
+font-size:0.9rem;
+margin-bottom: 30px;
+text-align: left;
+}
+.sec_3 .inner > div p{
+    font-size: 0.75rem;
+}
+.sec_3 .inner > div div{
+    text-align: left;
+}
+.sec_3 .inner > div div a{
+    font-size: 0.75rem;
+}
+.sec_3 .inner  img{
+    width: 50%;
+}
+/* section4*********** */
+.sec_4{
+    background:linear-gradient(#3a3352c2,#3a33529e),url("../Images/bg4.jpg") no-repeat center center;
+background-size: cover;
+}
+
+.sec_4 .inner > h3{
+    font-size:1.6rem;
+}
+.sec_4 .inner > p{
+    margin-bottom:100px;
+    font-size: 0.9rem;
+}
+.sec_4 .inner >div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sec_4 .inner >div article{
+    width:300px;
+}
+/* section5************** */
+.sec_5{
+    padding-bottom:20px;
+}
+.sec_5 .inner h3{
+    font-size: 1.8rem;
+}
+
+.sec_5 .inner > div{
+display:flex;
+justify-content: space-between;
+flex-wrap:wrap;
+}
+.sec_5 .inner >div article{
+    width:48%;
+}
+
+.sec_5 .inner >div article >div{
+    position: relative;
+    margin-bottom:20px;
+}
+
+.sec_5 .inner >div article >div img + a {
+    font-size: 1.1rem;
+}
+
+.sec_5 .inner >div article p + div{
+    text-align: left;
+}
+.sec_5 .inner >div article p + div  a:first-of-type{
+    padding:10px 15px;
+}
+/* section6 */
+.sec_6 .inner h3{
+    font-size:1.6rem;
+}
+.sec_6 .inner p{
+    font-size: 0.8rem;
+}
+.sec_6 .inner div {
+    display:flex;
+    justify-content: space-between;
+}
+.sec_6 .inner div aside:first-child{
+    margin-bottom:0px;
+    width:48%;
+}
+.sec_6 .inner div aside:first-child img{
+    width: 100%;
+}
+.sec_6 .inner div aside:last-child{
+    width:48%;
+}
+/* section 7 */
+
+.sec_7 .inner h3{
+    font-size:1.6rem;
+}
+.sec_7 .inner p{
+    font-size: 0.8rem;
+}
+.sec_7 .inner >div{
+    display:flex;
+    justify-content: space-between;
+}
+.sec_7 .inner >div article{
+    width:30%;
+}
+
+
+.sec_7  >div:last-child .inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec_7  >div:last-child .inner div{
+    width:49%;
+    margin-bottom:0px;
+    padding-top:10px;
+}
+.sec_7  >div:last-child .inner div h2{
+    font-size:1.2rem;
+    text-align: left;
+}
+.sec_7  >div:last-child .inner form{
+    width:49%;
+    padding-top:10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.sec_7  >div:last-child .inner form * {
+    width:49%;
+    margin:0px;
+    margin-bottom: 10px;
+    padding:10px 10px;
+}
+.sec_7  >div:last-child .inner form input:nth-child(3) {
+    width:65%;
+}
+.sec_7  >div:last-child .inner form input:last-of-type{
+    width:30%;
+ }
+ /* footer */
+ footer{
+    padding-top:40px;
+    padding-bottom:40px;
+
+}
+ footer .inner{
+     display:flex;
+     justify-content: space-between;
+     flex-wrap:wrap;
+ }
+ footer .inner > div{
+     width:30%;
+     border-bottom:none;
+     text-align: left;
+ }
+ footer .inner > div h5{
+     text-align: left;
+ }
+ footer .inner > div:first-child{
+     width:100%;
+     text-align:center;
+     margin-bottom:15px;
+ }
+ footer .inner > div:first-child h5{
+    text-align:center;
+ }
+}
+
+@media (min-width:992px){
+    .sec_1 .inner ul li{
+        font-size:0.8rem;
+    }
+    .sec_1 .inner div a i{
+        font-size:1rem;
+    }   
+    /* section 2 */
+    .sec_2 header  .inner > div p{
+        display: block;
+        color:#9B9B9D;
+        font-size:0.7rem;
+    }
+    .sec_2 header  .inner nav ul li a {
+        font-size:0.8rem;
+        padding:10px 15px;
+    }
+    .sec_2 header  .inner nav ul li a:hover{
+        background-color: var(--newcolor);
+        border:1px solid var(--newcolor);
+        color:#222533;
+    }
+  
+   .sec_2 > div h3{
+    font-size:2rem;
+   }
+   .sec_2 > div h1{
+    font-size:3.5rem;
+   }
+.sec_2 > div p{
+    font-size:1.1rem;
+    padding-left:120px;  
+    padding-right:120px;  
+
+}
+.sec_2 > div a {
+    font-size: 1rem;
+   margin-top:10px;
+}
+/* section3*********** */
+.sec_3 .inner >div{
+    width:56%;
+}
+.sec_3 .inner >div h2{
+    font-size:1.9rem;
+}
+.sec_3 .inner > div h5{
+font-size:0.9rem;
+margin-bottom: 30px;
+}
+.sec_3 .inner > div p{
+    font-size:0.9rem;
+}
+.sec_3 .inner > div div a{
+    font-size: 0.9rem;
+}
+.sec_3 .inner  img{
+    width:42%;
+}
+/* section4 */
+.sec_4 .inner > h3{
+    font-size:1.8rem;
+}
+.sec_4 .inner > p{
+    font-size: 1rem;
+}
+.sec_4 .inner >div article{
+width:250px;    
+margin-bottom:80px;
+}
+.sec_5 .inner >div article{
+    width:30%;
+}
+/* sectio6 */
+.sec_6 .inner ul li a{
+    font-size:0.8rem}
+/* secton7 */
+.sec_7  >div:last-child .inner div h2{
+    font-size:1.5rem;
+}
+/* footer */
+footer .inner > div{
+    width:20%;
+    border-bottom:none;
+    text-align: left;
+}
+footer .inner > div h5{
+    text-align: left;
+}
+footer .inner > div:first-child{
+    width:30%;
+    text-align:left;
+    margin-bottom:0px;
+}
+footer .inner > div:first-child h5{
+   text-align:left;
+}
+footer .inner >div:first-child div {
+    text-align:left;
+}
+}
+@media (min-width:1200px){
+ .inner{
+     max-width:1160px;
+ }
+ .sec_3 .inner >div h2{
+    font-size:2.2rem;
+}
+.sec_3 .inner > div h5{
+font-size:1rem;
+margin-bottom: 30px;
+}
+/* section7 */
+.sec_7  >div:last-child .inner div h2{
+    font-size:1.8rem;
+}
+
+.sec_7  >div:last-child .inner form * {
+    width:48%;
+}
+}
